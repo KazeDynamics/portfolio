@@ -12,7 +12,7 @@ const Earth = () => {
       object={earth.scene}
       scale={2.8}
       rotation-y={8}
-      position={[0, -0.5, 0]}
+      position={[0, -0.2, 0]}
     />
   );
 };

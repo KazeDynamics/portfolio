@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
+import { EarthCanvas, CV } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -74,6 +74,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Ready for takeoff?</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
+        <CV />
 
         <form
           ref={formRef}
@@ -88,7 +89,6 @@ const Contact = () => {
                 name="name"
                 value={form.name}
                 onChange={handleChange}
-                placeholder="What's your name?"
                 className="bg-tertiary w-full py-4 px-6 placeholder:text-white text-white outline-none font-medium rounded-[10px]"
               />
             </div>
@@ -101,7 +101,6 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="What's your web address?"
                 className="bg-tertiary py-4 px-6 placeholder:text-white text-white w-full rounded-[10px] outline-none font-medium"
               />
             </div>
@@ -119,7 +118,6 @@ const Contact = () => {
               />
             </div>
           </label>
-
           <div className="GradientBorderv2 w-fit p-[1px] rounded-[10px]">
             <button
               type="submit"
