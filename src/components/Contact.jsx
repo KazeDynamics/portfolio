@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
-import { EarthCanvas, CV } from "./canvas";
+import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -74,7 +74,6 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Ready for takeoff?</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-        <CV />
 
         <form
           ref={formRef}
