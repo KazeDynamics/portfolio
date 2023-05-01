@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FaLinkedin } from "react-icons/fa";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -56,6 +56,13 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <a
+            className="flex justify-start"
+            href="https://linkedin.com/in/daniel-rojas-758856174/"
+            target="_blank"
+          >
+            <FaLinkedin className="mt-1 ml-2" size={20} />
+          </a>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -83,6 +90,13 @@ const Navbar = () => {
             } p-6 bg-primary mobile-menu-border absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+              <a
+                className="flex justify-start"
+                href="https://linkedin.com/in/daniel-rojas-758856174/"
+                target="_blank"
+              >
+                <FaLinkedin className="mt-1 -ml-1" size={20} />
+              </a>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
