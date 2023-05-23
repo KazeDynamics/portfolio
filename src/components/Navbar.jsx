@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -49,7 +49,7 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Daniel &nbsp;
-            <span className="sm:block hidden">
+            <span className="md:block hidden">
               |&nbsp;&nbsp;Front-End Developer
             </span>
           </p>
@@ -61,7 +61,14 @@ const Navbar = () => {
             href="https://linkedin.com/in/daniel-rojas-758856174/"
             target="_blank"
           >
-            <FaLinkedin className="mt-1 ml-2" size={20} />
+            <FaLinkedin className="mt-1" size={20} />
+          </a>
+          <a
+            className="flex justify-start"
+            href="https://github.com/KazeDynamics"
+            target="_blank"
+          >
+            <FaGithub className="mt-1" size={20} />
           </a>
           {navLinks.map((nav) => (
             <li
@@ -96,6 +103,13 @@ const Navbar = () => {
                 target="_blank"
               >
                 <FaLinkedin className="mt-1 -ml-1" size={20} />
+              </a>
+              <a
+                className="flex justify-start"
+                href="https://github.com/KazeDynamics"
+                target="_blank"
+              >
+                <FaGithub className="mt-1 -ml-1" size={20} />
               </a>
               {navLinks.map((nav) => (
                 <li

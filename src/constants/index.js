@@ -230,7 +230,7 @@ const projects = [
   {
     name: "Biotechnology company",
     description:
-      "A comprehensive management platform that allows users to take advantage of a more organized and curated processes for international products entering the country.",
+      "A comprehensive management platform that allows users to take advantage of a more organized and curated way of handling regulatory supply chains for international products entering countries and regions.",
     tags: [
       {
         name: "TAILWINDCSS",
@@ -241,12 +241,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "SVELTE",
+        name: "SVELTEKIT",
         color: "pink-text-gradient",
       },
     ],
     image: ra,
-    live_site_link: "https://github.com/KazeDynamics/ra-notebook",
+    live_site_link: "https://bscranotebook.com/",
   },
 ];
 
