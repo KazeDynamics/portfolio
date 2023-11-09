@@ -123,7 +123,7 @@ const technologies = [
 const experiences = [
   {
     title: "Freelancer",
-    company_name: "various",
+    company_name: "Various",
     icon: computer,
     iconBg: "#fff",
     date: "Nov 2020 - Aug 2021",

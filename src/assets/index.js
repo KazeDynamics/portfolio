@@ -24,7 +24,6 @@ import jira from "./tech/jira.png";
 import aem from "./tech/aem.png";
 
 import kyndryl from "./company/kyndryl.png";
-import McKinsey from "./company/McKinsey.png";
 import pgd from "./company/pgd.png";
 import computer from "./company/computer.png";
 
@@ -53,7 +52,6 @@ export {
   typescript,
   profile,
   kyndryl,
-  McKinsey,
   pgd,
   computer,
   svelte,
