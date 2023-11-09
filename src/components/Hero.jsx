@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
           <p className={`${styles.heroInfoText}`}>
             <span className="text-[20px] md:text-[30px]">💼 </span>Front-End
-            Engineer at PGD
+            Developer at PGD
           </p>
           <p className={`${styles.heroInfoText}`}>
             <span className="text-[20px] md:text-[30px]">📧 </span>

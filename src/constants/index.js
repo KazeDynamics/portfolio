@@ -126,19 +126,9 @@ const experiences = [
     company_name: "various",
     icon: computer,
     iconBg: "#fff",
-    date: "Mar 2020 - Nov 2020",
+    date: "Nov 2020 - Aug 2021",
     points: [
-      "Built and launched front end applications for clients using multiple frameworks, programming languages and platforms. Giving them the ability to start their online presence and embrace a new niche with new potential customers",
-    ],
-  },
-  {
-    title: "Solution Delivery Analyst",
-    company_name: "McKinsey & Company",
-    icon: McKinsey,
-    iconBg: "#fff",
-    date: "Dec 2020 - Aug 2021",
-    points: [
-      "Engineered, adapted, maintained and launched multiple client specific functionalities for a single source of thruth management platform. Clients increased their growth by 33% and in cases of business transformations, their continuous improvement processes increased by 52%",
+      "Built and launched front end applications for clients using multiple frameworks, programming languages and platforms. Giving them the ability to start their online presence and embrace a new niche with new potential customers.",
     ],
   },
   {
@@ -148,7 +138,7 @@ const experiences = [
     iconBg: "#fff",
     date: "Sep 2021 - Ene 2022",
     points: [
-      "Research, design, implement and manage software programs mainly in Python. Involved in systems testing and validation procedures, as well as analysis and testing of programs and products prior to formal launch. Proactively participating in the activities of programming, monitoring and evaluating the performance of the system.",
+      "Research, design, implement and manage software programs mainly in Python. Involved in systems testing and validation procedures, as well as analysis and testing of programs and products prior to formal launch. Proactively participating in the activities of programming, monitoring and evaluating the performance of the systems.",
     ],
   },
   {
@@ -158,7 +148,7 @@ const experiences = [
     iconBg: "#fff",
     date: "Feb 2022 - Present",
     points: [
-      "Creation of user-friendly web pages. Maintenance and improvement of different ever changing websites. Optimization of applications for maximum compliance. Design mobile-based features. Collaboration with back-end developers and web designers to improve usability. Writing of functional documents and guides. Creation of quality mockups and prototypes. Ensure high-quality graphic standards and brand consistency. Determine the structure and design of web pages and striking a balance between functional and aesthetic designs. The 'familiar customers' satisfaction increased 25% in the last year",
+      "Creation of user-friendly web pages. Maintenance and improvement of different ever changing websites. Optimization of applications for maximum compliance. Design mobile-based features. Collaboration with back-end developers and web designers to improve usability. Writing of functional documents and guides. Creation of quality mockups and prototypes. Ensure high-quality graphic standards and brand consistency. Determine the structure and design of web pages and striking a balance between functional and aesthetic designs. The 'familiar customers' satisfaction increased 25% in the last year.",
     ],
   },
 ];
