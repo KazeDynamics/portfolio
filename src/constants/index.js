@@ -15,7 +15,6 @@ import {
   kyndryl,
   pgd,
   computer,
-  McKinsey,
   svelte,
   gitlab,
   sketch,
